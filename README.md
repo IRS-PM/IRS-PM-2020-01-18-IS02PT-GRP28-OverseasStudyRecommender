@@ -15,14 +15,12 @@
     clone the repo from "https://github.com/buguroo/pyknow.git"  
     go to the project directory and run `pip install .`  
 
-    create the database based on   
+5. create the database based on   
     `0_database_creation.sql`
 
-5. create database tables by running below bash file
-    `1_table_setup.sh`  
 
 7. load data into tables by 
-    `python 2_table_load.py`
+    `python 1_table_load.py`
 
 8. debugging:  
     `python3 manage.py runserver 0.0.0.0:8000`  
